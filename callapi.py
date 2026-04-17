@@ -7,6 +7,7 @@ def call_api():
         response_from_api = requests.get(url)
 
         #check for the return code under 299
+        #need to check the second branch
 
         data_from_api = response_from_api.json() #parse json into python dictionary
 
