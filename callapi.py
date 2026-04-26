@@ -1,5 +1,4 @@
 import requests
-import json
 
 def call_api():
     try:
@@ -11,7 +10,7 @@ def call_api():
 
         data_from_api = response_from_api.json() #parse json into python dictionary
 
-        print(json.dumps(data_from_api, indent=4, sort_keys=True))
+        print(data_from_api)
 
     except Exception as e:
         print(f"Error is{e}")
