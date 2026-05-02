@@ -12,3 +12,6 @@ i_list = []
 create_inc_list(o_list[:],i_list)
 display_inc_list(i_list)
 print(o_list)
+
+my_sentence = "this is sparta"
+print(my_sentence.title())
