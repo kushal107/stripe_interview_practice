@@ -7,7 +7,7 @@
 
 #mylist = [44,55,77]
 printlist(2,5,7,8)
-#print(mylist)"""
+#print(mylist)
 
 def printdict(**dict01):
     for x,y in dict01.items():
@@ -15,4 +15,5 @@ def printdict(**dict01):
 
 mydict = {'k1':1, 'k2':2}
 #printdict(mydict)
-printdict(a=1,b=2)
+printdict(a=1,b=2)"""
+
