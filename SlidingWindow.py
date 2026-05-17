@@ -8,7 +8,9 @@ while right < len(nums):
     while curr > k:
         curr = curr - nums[left]
         left = left + 1
-    ans = max(ans,right-left+1)
+    if ans < right - left + 1:
+        ans = right - left + 1
+    #ans = max(ans,right-left+1)
     right = right + 1
 
 print(ans)
